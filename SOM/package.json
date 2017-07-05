@@ -1,0 +1,27 @@
+{
+  "name": "SOM",
+  "version": "1.0.0",
+  "description": "this is an application made with react, express, mongodb and nodejs,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prajwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "browserify": "^12.0.2",
+    "es6-promise": "^3.3.1",
+    "express": "^4.15.3",
+    "guid": "0.0.12",
+    "gulp": "^3.9.1",
+    "jquery": "^2.2.4",
+    "mongoose": "^4.11.0",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {}
+}
