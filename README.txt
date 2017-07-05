@@ -29,6 +29,29 @@ After all commands are given
 ------this one is for mounting the server-------
 12) nodemon .\server\server.js
 
-Now please launch your application using following command, and browse http://localhost:7777/index.html
+Now please launch your application using following command, and browse http://localhost:7777/index.html but before that lets start our MOngoose db instance
+
+step1:- open your command prompt
+
+step2:- then type cd c:\program files\mongodb\server\3.4\bin (mongodb default location in c: drive, using above command we going to access) if you are using earlier version 2.0,2.6 means you should follow cd c:\program files\mongodb 2.6 standard\bin
+
+step3:- now you were inside mongodb file location, nxt is to create one new directory using command mkdir data.
+-----imp steps----
+step4:- type mongod --dbpath data (it will connect to port)
+
+step5:- minimize the current command prompt and open another command prompt with "run as admin"
+
+step6:- then type cd c:\program files\mongodb\server\3.0\bin
+
+step7:- now type mongo localhost/schoolfinder (connect to db server)
+------imp steps done here----
+go to mongo prompt in downloaded files from mongoose db website
+
+"show collections" command is use to display the existing collection in db server
+"help" for help
+"show dbs" command display schema 
+
+
+
 
 
